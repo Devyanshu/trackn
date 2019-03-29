@@ -33,10 +33,10 @@ f2.pack()
 
 Label(root, text="").pack()
 btnGo = Button(f2, text="Go", padx=6, pady=6, bd=2, fg="black", font=(
-        'arial', 12, 'bold'), width=14, height=1, command=go).grid(row=0,
+        'arial', 14, 'bold'), width=14, height=1, command=go).grid(row=0,
                                                                    column=0)
 btnExit = Button(f2, text="Exit", padx=6, pady=6, bd=2, fg="black", font=(
-        'arial', 12, 'bold'), width=14, height=1, command=iExit).grid(row=0,
+        'arial', 14, 'bold'), width=14, height=1, command=iExit).grid(row=0,
                                                                       column=1)
 
 if __name__ == "__main__":
