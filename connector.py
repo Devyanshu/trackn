@@ -6,8 +6,9 @@ firebase = firebase.FirebaseApplication(
 
 
 def submit(number, cat):
+    mapping = {1: 'laundry', 2: 'courier', 3: 'library'}
     print(number, cat)
-    prov = firebase.post('/'+str(cat.strip()), {'number': number})
+    prov = firebase.post('/'+mapping[cat], {'number': number})
 
 
 '''
