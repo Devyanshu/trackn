@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 import connector
+import griev
 
 
 def main(cat):
@@ -34,7 +35,7 @@ def main(cat):
 
     gr = Button(f2, text="Grievance", padx=3, pady=3, fg="black",
                 font=('arial', 12, 'bold'), width=10, height=1, relief="raise",
-                command=None)
+                command=griev.g)
     print(cat)
     if cat is 1:
         gr.grid(row=5, column=2)
